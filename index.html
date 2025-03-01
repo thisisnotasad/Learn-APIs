@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APIs Testing</title>
+    <style>
+      body {
+        font-family: cursive;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      .basicStyling {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-size: x-large;
+      }
+      .color {
+        background-color: #20292d;
+      }
+
+      img {
+        border-radius: 1rem;
+        padding: 10px;
+        width: 250px;
+        height: 100%;
+        object-fit: cover;
+        background-color: rgb(41, 64, 56);
+        box-shadow: 0px 10px 20px 10px rgba(186, 29, 5, 0.9);
+      }
+      button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        margin: 10px;
+        font-size: large;
+      }
+      button:hover {
+        background-color: #041d27;
+      }
+      button:active {
+        background-color: #6c8b98;
+      }
+      .prev {
+        float: left;
+      }
+      .next {
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="basicStyling shadow">Dragon Ball Z Characters List</div>
+
+    <div class="container">
+      <button class="next" id="next">Next</button>
+      <button class="prev" id="prev">Prev</button>
+
+      <div class="box basicStyling color" id="box">
+        Error: Hello! You can see the list of characters here.
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
